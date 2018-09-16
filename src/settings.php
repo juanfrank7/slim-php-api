@@ -8,6 +8,14 @@ return [
         'renderer' => [
             'template_path' => __DIR__ . '/../templates/',
         ],
+	
+        // Database connection settings
+        "db" => [
+            "host" => "127.0.0.1",
+            "dbname" => "deportes",
+            "user" => "admin",
+            "pass" => "Fr4nc15c0"
+        ],
 
         // Monolog settings
         'logger' => [
